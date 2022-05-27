@@ -1,0 +1,52 @@
+.toyota {
+    width: 500px;
+}
+
+.suzuki {
+    width: 100%;
+}
+
+
+/* CSS Background Image */
+.container1 {
+    background-color: aqua;
+    color: red;
+    height: 300px;
+    width: 100%;
+    background-image: url(../images/toyotacar.jpg);
+    background-size: cover;  /*firstvalue=width, secondvalue=height   or contain / cover */
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: auto; /*hidden, scroll, auto*/
+    background-attachment: fixed; /*scroll, fixed*/
+}
+
+
+/* CSS Table */
+
+table {
+    width: 500px;
+    border-collapse: separate; /*separate=default, collapse*/
+    empty-cells: show;
+}
+
+table tr th {
+    background-color: grey;
+}
+
+table tr td {
+    background-color: burlywood;
+}
+
+/* border-spacing 
+
+    1st value = horizontal space
+    2nd value = vertical space
+
+    if one value only = both horizontal and vertical will be adjusted
+
+*/
+
+table {
+    border-spacing: 15px;
+}
